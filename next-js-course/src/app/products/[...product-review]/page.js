@@ -1,4 +1,5 @@
-export default function ProductsReview() {
+export default function ProductsReview({params}) {
+    console.log(params)
     return (
         <div>
             <h1>Products Review</h1>
